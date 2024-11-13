@@ -16,6 +16,8 @@ on:
 
 jobs:
   sls:
+    # Set environment
+    environment: sls
     # User definable name of this GitHub Actions job.
     name: sls/scan
     # If you are self-hosting, change the following `runs-on` value: 
